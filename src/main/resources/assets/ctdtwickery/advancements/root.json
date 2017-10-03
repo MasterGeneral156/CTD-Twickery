@@ -1,0 +1,37 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:candycontainer"
+        },
+        "title": 
+		{
+            "translate": "advancement.candycontainer.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.candycontainer.desc"
+        },
+		"frame": "goal",
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"show_toast": true,
+		"announce_to_chat": true
+    },
+    "criteria": 
+	{
+        "core": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:candycontainer"
+                    }
+                ]
+            }
+        }
+    }
+}

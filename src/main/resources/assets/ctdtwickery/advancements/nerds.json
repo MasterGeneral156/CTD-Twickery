@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:nerds"
+        },
+        "title": 
+		{
+            "translate": "advancement.nerds.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.nerds.desc"
+        }
+    },
+	"parent": "ctdtwickery:swedishfish",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:nerds"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:swedishfish"
+        },
+        "title": 
+		{
+            "translate": "advancement.swedishfish.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.swedishfish.desc"
+        }
+    },
+	"parent": "ctdtwickery:starburst",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:swedishfish"
+                    }
+                ]
+            }
+        }
+    }
+}

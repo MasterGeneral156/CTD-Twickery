@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:tripleoreo"
+        },
+        "title": 
+		{
+            "translate": "advancement.tripleoreo.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.tripleoreo.desc"
+        }
+    },
+	"parent": "ctdtwickery:pbcup",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:tripleoreo"
+                    }
+                ]
+            }
+        }
+    }
+}

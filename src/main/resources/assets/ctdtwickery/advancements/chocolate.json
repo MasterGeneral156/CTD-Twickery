@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:chocolate"
+        },
+        "title": 
+		{
+            "translate": "advancement.chocolate.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.chocolate.desc"
+        }
+    },
+	"parent": "ctdtwickery:root",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:chocolate"
+                    }
+                ]
+            }
+        }
+    }
+}

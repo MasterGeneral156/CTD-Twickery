@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:airhead2"
+        },
+        "title": 
+		{
+            "translate": "advancement.airhead2.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.airhead2.desc"
+        }
+    },
+	"parent": "ctdtwickery:airhead",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:airhead2"
+                    }
+                ]
+            }
+        }
+    }
+}

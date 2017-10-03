@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:suckerteal"
+        },
+        "title": 
+		{
+            "translate": "advancement.suckerteal.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.suckerteal.desc"
+        }
+    },
+	"parent": "ctdtwickery:suckerpink",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:suckerteal"
+                    }
+                ]
+            }
+        }
+    }
+}

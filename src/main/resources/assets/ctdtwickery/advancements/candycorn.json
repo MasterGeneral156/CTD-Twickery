@@ -1,0 +1,34 @@
+{
+    "display": 
+	{
+        "icon": 
+		{
+            "item": "ctdtwickery:candycorn"
+        },
+        "title": 
+		{
+            "translate": "advancement.candycorn.name"
+        },
+        "description": 
+		{
+            "translate": "advancement.candycorn.desc"
+        }
+    },
+	"parent": "ctdtwickery:root",
+    "criteria": 
+	{
+        "carrot": 
+		{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+			{
+                "items": 
+				[
+                    {
+                        "item": "ctdtwickery:candycorn"
+                    }
+                ]
+            }
+        }
+    }
+}
